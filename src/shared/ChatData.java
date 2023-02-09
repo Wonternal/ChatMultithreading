@@ -35,4 +35,13 @@ public class ChatData implements Serializable {
     public void setDate(Date date) {
         this.date = date;
     }
+
+    @Override
+    public String toString() {
+        return "ChatData{" +
+                "name='" + name + '\'' +
+                ", message='" + message + '\'' +
+                ", date=" + date +
+                '}';
+    }
 }
